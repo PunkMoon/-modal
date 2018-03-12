@@ -80,15 +80,15 @@ setModal.create();
 
     自定义的弹框DOM
 
-    ## Method
+## Method
 
-    #### `create`
+#### `create`
 
-    创建并显示弹框
+创建并显示弹框
 
-    #### `delete`
+#### `delete`
 
-    关闭并从body中移除DOM
+关闭并从body中移除DOM
 
 
 
