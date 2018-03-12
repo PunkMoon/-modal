@@ -36,59 +36,59 @@ setModal.create();
 
 1. 当type类型不为`manual` 时,以下参数为必填：
 
-#### `title` 
+    #### `title` 
 
-`String`  
+    `String`  
 
-弹框标题
+    弹框标题
 
-#### `message`
-`String` 
+    #### `message`
+    `String` 
 
-弹框内容
+    弹框内容
 
-#### `confirmButtonText`
-`String`
+    #### `confirmButtonText`
+    `String`
 
-按钮内容
+    按钮内容
 
-#### `cancelButtonText`
+    #### `cancelButtonText`
 
-`String`
+    `String`
 
-左侧按钮内容
+    左侧按钮内容
 
-#### `confirmCallback`
-`Funciton`
+    #### `confirmCallback`
+    `Funciton`
 
-点击右侧确认按钮调用的函数
+    点击右侧确认按钮调用的函数
 
-#### `cancelCallback`
-`Funciton`
+    #### `cancelCallback`
+    `Funciton`
 
-点击左侧取消按钮调用的函数
+    点击左侧取消按钮调用的函数
 
 2. 当type类型为`manual` 时,以下参数为必填：
 
-#### `id`
-`String`
+    #### `id`
+    `String`
 
-自定义的弹框DOM的id
+    自定义的弹框DOM的id
 
-#### `html`
-`String`
+    #### `html`
+    `String`
 
-自定义的弹框DOM
+    自定义的弹框DOM
 
-## Method
+    ## Method
 
-#### `create`
+    #### `create`
 
-创建并显示弹框
+    创建并显示弹框
 
-#### `delete`
+    #### `delete`
 
-关闭并从body中移除DOM
+    关闭并从body中移除DOM
 
 
 
